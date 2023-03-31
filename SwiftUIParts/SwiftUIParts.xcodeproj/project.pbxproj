@@ -11,6 +11,13 @@
 		C6A6F73829D6882C00EAD168 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A6F73729D6882C00EAD168 /* ContentView.swift */; };
 		C6A6F73A29D6882C00EAD168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A6F73929D6882C00EAD168 /* Assets.xcassets */; };
 		C6A6F73D29D6882C00EAD168 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A6F73C29D6882C00EAD168 /* Preview Assets.xcassets */; };
+		C6A6F74A29D6898500EAD168 /* LoadingCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A6F74329D6898500EAD168 /* LoadingCover.swift */; };
+		C6A6F74B29D6898500EAD168 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A6F74429D6898500EAD168 /* ActivityIndicator.swift */; };
+		C6A6F74C29D6898500EAD168 /* ResizeableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A6F74529D6898500EAD168 /* ResizeableBox.swift */; };
+		C6A6F74D29D6898500EAD168 /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A6F74629D6898500EAD168 /* TextFieldClearButton.swift */; };
+		C6A6F74E29D6898500EAD168 /* CircleButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A6F74729D6898500EAD168 /* CircleButtonLabel.swift */; };
+		C6A6F74F29D6898500EAD168 /* ListEntryTextWithSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A6F74829D6898500EAD168 /* ListEntryTextWithSubtitle.swift */; };
+		C6A6F75029D6898500EAD168 /* UsualButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A6F74929D6898500EAD168 /* UsualButtonLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		C6A6F73729D6882C00EAD168 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6A6F73929D6882C00EAD168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6A6F73C29D6882C00EAD168 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6A6F74329D6898500EAD168 /* LoadingCover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCover.swift; sourceTree = "<group>"; };
+		C6A6F74429D6898500EAD168 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		C6A6F74529D6898500EAD168 /* ResizeableBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizeableBox.swift; sourceTree = "<group>"; };
+		C6A6F74629D6898500EAD168 /* TextFieldClearButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
+		C6A6F74729D6898500EAD168 /* CircleButtonLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButtonLabel.swift; sourceTree = "<group>"; };
+		C6A6F74829D6898500EAD168 /* ListEntryTextWithSubtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEntryTextWithSubtitle.swift; sourceTree = "<group>"; };
+		C6A6F74929D6898500EAD168 /* UsualButtonLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsualButtonLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,13 @@
 		C6A6F73429D6882C00EAD168 /* SwiftUIParts */ = {
 			isa = PBXGroup;
 			children = (
+				C6A6F74429D6898500EAD168 /* ActivityIndicator.swift */,
+				C6A6F74729D6898500EAD168 /* CircleButtonLabel.swift */,
+				C6A6F74829D6898500EAD168 /* ListEntryTextWithSubtitle.swift */,
+				C6A6F74329D6898500EAD168 /* LoadingCover.swift */,
+				C6A6F74529D6898500EAD168 /* ResizeableBox.swift */,
+				C6A6F74629D6898500EAD168 /* TextFieldClearButton.swift */,
+				C6A6F74929D6898500EAD168 /* UsualButtonLabel.swift */,
 				C6A6F73529D6882C00EAD168 /* SwiftUIPartsApp.swift */,
 				C6A6F73729D6882C00EAD168 /* ContentView.swift */,
 				C6A6F73929D6882C00EAD168 /* Assets.xcassets */,
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A6F74B29D6898500EAD168 /* ActivityIndicator.swift in Sources */,
+				C6A6F74D29D6898500EAD168 /* TextFieldClearButton.swift in Sources */,
 				C6A6F73829D6882C00EAD168 /* ContentView.swift in Sources */,
+				C6A6F75029D6898500EAD168 /* UsualButtonLabel.swift in Sources */,
 				C6A6F73629D6882C00EAD168 /* SwiftUIPartsApp.swift in Sources */,
+				C6A6F74A29D6898500EAD168 /* LoadingCover.swift in Sources */,
+				C6A6F74F29D6898500EAD168 /* ListEntryTextWithSubtitle.swift in Sources */,
+				C6A6F74E29D6898500EAD168 /* CircleButtonLabel.swift in Sources */,
+				C6A6F74C29D6898500EAD168 /* ResizeableBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
